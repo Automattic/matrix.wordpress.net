@@ -22,7 +22,7 @@ jobs:
         with:
           # The ACCESS_TOKEN secret is defined at
           # https://github.com/Automattic/matrix.wordpress.net/settings/secrets/actions
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           ref: public
           path: public
 
