@@ -43,6 +43,9 @@
     "settingDefaults": {
         "breadcrumbs": true
     },
+	"sso_redirect_options": {
+        "immediate": true
+    },
     "jitsi": {
         "preferredDomain": "jitsi.riot.im"
     }
