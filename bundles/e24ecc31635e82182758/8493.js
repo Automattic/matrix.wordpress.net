@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelement_web=self.webpackChunkelement_web||[]).push([[8493],{"../matrix-react-sdk/src/effects/effect.ts":()=>{}}]);
