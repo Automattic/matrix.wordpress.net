@@ -38,21 +38,21 @@
         manifest-src 'self' ;
     ">
     
-           <link rel="stylesheet" href="bundles/b303e51b545dcd790b4f/bundle.css">
+           <link rel="stylesheet" href="bundles/283aaa75466235a1b397/bundle.css">
         
-           <link rel="stylesheet" disabled="disabled" data-mx-theme="Legacy-light" title="Legacy-light" href="bundles/b303e51b545dcd790b4f/theme-legacy-light.css">
+           <link rel="stylesheet" disabled="disabled" data-mx-theme="Legacy-light" title="Legacy-light" href="bundles/283aaa75466235a1b397/theme-legacy-light.css">
         
-           <link rel="stylesheet" disabled="disabled" data-mx-theme="Legacy-dark" title="Legacy-dark" href="bundles/b303e51b545dcd790b4f/theme-legacy-dark.css">
+           <link rel="stylesheet" disabled="disabled" data-mx-theme="Legacy-dark" title="Legacy-dark" href="bundles/283aaa75466235a1b397/theme-legacy-dark.css">
         
-           <link rel="stylesheet" disabled="disabled" data-mx-theme="Light" title="Light" href="bundles/b303e51b545dcd790b4f/theme-light.css">
+           <link rel="stylesheet" disabled="disabled" data-mx-theme="Light" title="Light" href="bundles/283aaa75466235a1b397/theme-light.css">
         
-           <link rel="stylesheet" disabled="disabled" data-mx-theme="Light-high-contrast" title="Light-high-contrast" href="bundles/b303e51b545dcd790b4f/theme-light-high-contrast.css">
+           <link rel="stylesheet" disabled="disabled" data-mx-theme="Light-high-contrast" title="Light-high-contrast" href="bundles/283aaa75466235a1b397/theme-light-high-contrast.css">
         
-           <link rel="stylesheet" disabled="disabled" data-mx-theme="Dark" title="Dark" href="bundles/b303e51b545dcd790b4f/theme-dark.css">
+           <link rel="stylesheet" disabled="disabled" data-mx-theme="Dark" title="Dark" href="bundles/283aaa75466235a1b397/theme-dark.css">
         
-           <link rel="stylesheet" disabled="disabled" data-mx-theme="Light-custom" title="Light-custom" href="bundles/b303e51b545dcd790b4f/theme-light-custom.css">
+           <link rel="stylesheet" disabled="disabled" data-mx-theme="Light-custom" title="Light-custom" href="bundles/283aaa75466235a1b397/theme-light-custom.css">
         
-           <link rel="stylesheet" disabled="disabled" data-mx-theme="Dark-custom" title="Dark-custom" href="bundles/b303e51b545dcd790b4f/theme-dark-custom.css">
+           <link rel="stylesheet" disabled="disabled" data-mx-theme="Dark-custom" title="Dark-custom" href="bundles/283aaa75466235a1b397/theme-dark-custom.css">
         
 
     
@@ -76,10 +76,10 @@
   </head>
   <body style="height: 100%; margin: 0;">
     <noscript>Sorry, Element requires JavaScript to be enabled.</noscript> <!-- TODO: Translate this? -->
-    <section id="matrixchat" style="height: 100%;" class="notranslate"></section>
+    <div id="matrixchat" style="height: 100%;" class="notranslate"></div>
 
-    <script src="bundles/b303e51b545dcd790b4f/unhomoglyph_data.js"></script>
-    <script src="bundles/b303e51b545dcd790b4f/bundle.js"></script>
+    <script src="bundles/283aaa75466235a1b397/unhomoglyph_data.js"></script>
+    <script src="bundles/283aaa75466235a1b397/bundle.js"></script>
 
 
     <!-- Legacy supporting Prefetch images -->
@@ -119,5 +119,11 @@
     <audio id="remoteAudio"></audio>
     <!-- let CSS themes pass constants to the app -->
     <div id="mx_theme_accentColor"></div><div id="mx_theme_secondaryAccentColor"></div><div id="mx_theme_tertiaryAccentColor"></div>
+
+    <!-- We eagerly create these containers to ensure their CSS stacking context order is sensible -->
+    <div id="mx_PersistedElement_container"></div>
+    <div id="mx_Dialog_StaticContainer"></div>
+    <div id="mx_Dialog_Container"></div>
+    <div id="mx_ContextualMenu_Container"></div>
   </body>
 </html>
