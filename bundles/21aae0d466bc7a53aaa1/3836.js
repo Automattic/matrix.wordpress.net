@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkelement_web=self.webpackChunkelement_web||[]).push([[3836],{"./src/modules.ts":(e,s,t)=>{t.d(s,{INSTALLED_MODULES:()=>c});const c=[]}}]);
-//# sourceMappingURL=3836.js.map
