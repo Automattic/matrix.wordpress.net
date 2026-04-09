@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelement_web=self.webpackChunkelement_web||[]).push([[6337],{"./src/effects/effect.ts"(){}}]);
