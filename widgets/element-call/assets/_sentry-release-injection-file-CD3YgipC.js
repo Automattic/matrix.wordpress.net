@@ -1,2 +1,0 @@
-try{let t=typeof window<`u`?window:e===void 0?typeof globalThis<`u`?globalThis:typeof self<`u`?self:{}:e,n=new t.Error().stack;n&&(t._sentryDebugIds=t._sentryDebugIds||{},t._sentryDebugIds[n]=`b08bf16d-879e-45e4-98f1-759dd1e6a4d3`,t._sentryDebugIdIdentifier=`sentry-dbid-b08bf16d-879e-45e4-98f1-759dd1e6a4d3`)}catch{}var e=globalThis||self;{let t=typeof window<`u`?window:e===void 0?typeof globalThis<`u`?globalThis:typeof self<`u`?self:{}:e;t.SENTRY_RELEASE={id:`embedded-v0.22.0`}}export{e as t};
-//# sourceMappingURL=_sentry-release-injection-file-CD3YgipC.js.map
